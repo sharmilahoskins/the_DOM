@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type ="text/javascript" src="the_dom.js"></script>
+    <title>Number Game</title>
+  </head>
+  <body>
+    <h1>The Number Game</h1>
+    <br />
+    <h3>What is your name?</h3>
+    <input id="name" type="text" />
+    <input type="button" value="Submit name" onclick="getName()"  />
+    <br />
+    <br />
+    <h3>Guess a number between 1-100</h3>
+    <input type="button" value="Generate a number" onclick="numberPick()" />
+    <br />
+    <br />
+    <input id="guess" type="text" />
+    <input type="button" value="submit" onclick="userGuess()" />
+    <h2 id="result">Your guess was:</h2>
+  </body>
+</html>

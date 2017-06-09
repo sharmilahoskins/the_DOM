@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="tipinteractive.js" ></script>
+    <title></title>
+  </head>
+  <body>
+<h1> Calculate your tip</h1>
+  <h3>Enter the total bill amount</h3>
+  <br />
+  <input id="total-bill" type="text" />
+  <br />
+  <br />
+  <h3>How much do you want to tip?</h3>
+  <input id="tip15" type="radio" value="15%" name="tip"  />15%
+  <input id="tip20" type="radio" value="20%" name="tip" />20%
+  <input id="tip25" type="radio" value="25%" name="tip"  />25%
+  <br />
+  <br />
+  <br />
+  <input type="button" style="font-size:4em;height:200px;width:200px" value="Get tip amount" onclick="calcTip()" />
+  <h2 id="tiptotal"></h2>
+
+  </body>
+</html>
